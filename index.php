@@ -27,7 +27,7 @@ include('includes/navbar.php');
                       <?php
                        require 'dbconfig.php';
 
-                       $query = "SELECT id FROM guru ORDER by id";
+                       $query = "SELECT id FROM akun_guru ORDER by id";
                        $query_run = mysqli_query($connection, $query);
 
                        $row = mysqli_num_rows($query_run);
